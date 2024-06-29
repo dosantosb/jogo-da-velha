@@ -1,37 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #5A1E76;
-    box-sizing: border-box;
-}
-
 html, body {
     width: 100%;
     height: 100%;
-}
-
-main {
+    margin: 0;
+    padding: 0;
+    background-color: #5A1E76;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-
 .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; /* Ajuste conforme necessário */
 }
 
 .title h1 {
     font-family: "Fredoka", sans-serif;
-    font-size: 150px;
-    line-height: 0.5;
-    margin: 0;
-    white-space: pre-line;
-    position: relative;
+    font-size: 200px;
+    line-height: 0.5; 
+    margin: 0; 
 }
 
 .word-tic {
@@ -46,3 +42,36 @@ main {
     color: white;
 }
 
+.container {
+    width: 404px;
+    height: 68%;
+    margin-top: 5px;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2B0040;
+    border-radius: 20px;
+}
+
+.players-draw-container {
+    display: flex;   
+}
+
+.player-x {
+    background-color: #72CFF9;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.draw {
+    background-color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.player-o {
+    background-color: #DCBF3F;
+    padding: 13px;
+    border-radius: 5px;
+} 
