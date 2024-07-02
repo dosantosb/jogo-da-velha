@@ -10,7 +10,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+    position: relative;
 }
 
 .title {
@@ -20,7 +20,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-     
+    padding: 20px; 
 }
 
 .title h1 {
@@ -39,14 +39,14 @@ html, body {
 }
 
 .word-toe {
-    color: #DCBF3F;
+    color: white;
 }
 
 .container {
     width: 404px;
-    height: 590px;
+    height: 68%;
     margin-top: 5px;
-    padding-top: 3.5rem;
+    padding-top: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,24 +57,21 @@ html, body {
 .players-draw-container {
     display: flex;
     justify-content: space-between;
-    width: 294px;
-    height: 68px;
+    
          
 }
 
 .player-x, .draw, .player-o {
-    width: 92px;
-    height: 70px;
-    padding-top: 10px;
-    text-align: center;
-    border-radius: 10px;
+    padding: 17px;
+    width: 70px;
+    border-radius: 5px;
     font-family: "Fredoka", sans-serif;
     
 }
 
 .player-x {
     background-color: #72CFF9;
-    margin-right: 10px;
+    margin-right: 15px;
     
 }
 
@@ -84,17 +81,16 @@ html, body {
 
 .player-o {
     background-color: #DCBF3F;
-    margin-left: 10px;
+    margin-left: 15px;
 } 
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /*1fr 1fr 1fr; */
+    grid-template-columns: 101px 101px 101px;
     align-items: center;
     width: 294px;
     height: 294px;
     margin-top: 35px;
-    gap: 10px;
     background-color: #2B0040;
     
 }
@@ -106,22 +102,18 @@ html, body {
    border-radius: 10px;  
 }
 
-.grid-item:hover {
-    background-color: #5A1E76;
-}
-
 .new-game-container {
     margin-top: 90px;
 }
 
-#new-game-button {
-    width: 326px;
-    height: 55px;
+.new-game-button {
+    width: 214px;
+    height: 50px;
     border-radius: 5px;
     
 }
 
-#new-game-button:hover {
+.new-game-button:hover {
     background-color: #C5A0D7;
 }
 
