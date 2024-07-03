@@ -12,6 +12,11 @@ html, body {
     justify-content: center;
 }
 
+main {
+    display: flex;
+    
+}
+
 .title {
     position: absolute;
     bottom: 0;
