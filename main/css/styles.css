@@ -113,13 +113,14 @@ html, body {
     margin-top: 90px;
 }
 
-#new-game-button {
+.new-game-button {
     width: 326px;
     height: 55px;
     border-radius: 5px;
     
 }
 
-#new-game-button:hover {
+.new-game-button:hover {
     background-color: #C5A0D7;
 }
+
